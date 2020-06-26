@@ -30,7 +30,7 @@ Several [benchmarks](https://stressgrid.com/blog/benchmarking_go_vs_node_vs_elix
 
 ### Scalable
 
-Several [benchmarks](https://stressgrid.com/blog/benchmarking_go_vs_node_vs_elixir/) show the scalability of Elixir. It’s able to process tens of thousands of web connections simultaneously. The concurrency model of Elixir makes this possible. Each connection is handled in an Erlang process independent of all others (Erlang processes differ from. For more details, read [Concurrent Programming](http://erlang.org/doc/getting_started/conc_prog.html).) A single Erlang VM can handle _many_ Erlang processes since they are lightweight.
+Several [benchmarks](https://stressgrid.com/blog/benchmarking_go_vs_node_vs_elixir/) show the scalability of Elixir. It’s able to process tens of thousands of web connections simultaneously. The concurrency model of Elixir makes this possible. Each connection is handled in an Erlang process independent of all others (Erlang processes differ from operating system processes in several key ways. For more details, read [Concurrent Programming](http://erlang.org/doc/getting_started/conc_prog.html).) A single Erlang VM can handle _many_ Erlang processes since they are lightweight.
 
 ### Simple
 
